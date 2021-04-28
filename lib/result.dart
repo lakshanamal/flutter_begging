@@ -8,7 +8,7 @@ class Result extends StatelessWidget {
 
   String get resultPhrease {
     String textPrease = "you are good";
-    if (resultScoure < 20)
+    if (resultScoure < 25)
       textPrease = "Your Awesome";
     else if (resultScoure < 30)
       textPrease = "You likely awesome";
